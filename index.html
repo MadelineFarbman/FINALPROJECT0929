@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://studio.generalassemb.ly/FEWD36/MFarbman/FinalProject/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Final Project</title>
+		<meta charset="utf8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="sandwich">
+			<div class="header">
+				<h2>What do you want on your sandwich?</h2>
+			</div>
+			<div class="builder">
+				<form>
+				<label for="bread">Bread: </label>
+					<select id="bread" name="bread">
+						<option value="" disabled="" selected="">Select One</option>
+						<option value="pumpernickel">Pumpernickel</option>
+						<option value="wheat">Wheat</option>
+						<option value="white">White</option>
+					</select>
+					<input id="submit" type="submit">
+					<br/>
+					<input class="checkbox" type="checkbox" id="bacon" value="bacon">bacon<br>
+					<input class="checkbox" type="checkbox" id="Swiss" value="Swiss">Swiss<br> 
+					<input type="checkbox" id="American" value="American">American<br> 
+					<input class="checkbox" type="checkbox" id="ham" value="ham">ham<br> 
+					<input class="checkbox" type="checkbox" id="tomato" value="tomato">tomato<br> 
+					<input class="checkbox" type="checkbox" id="lettuce" value="lettuce">lettuce<br> 
+					<input class="checkbox" type="checkbox" id="pickle" value="pickle">pickle<br> 
+
+					
+					<input type="reset">
+				</form>
+
+		</div>
+			<div id="results">
+				<div id="sandwich">
+					<div class="bread"></div>
+					<div class="toppings">
+
+<!-- 						<img src="./images/lettuce.png"><br>
+						<img src="./images/tomato.png"><br>	
+						<img src="./images/bacon.png"><br>		
+						<img src="./images/swiss.png"><br>		 -->
+					</div>
+					<div class="bread"></div>
+				</div>
+			</div>
+		</div>	
+	<script src="jquery.min.js"></script>
+	<script src="script.js"></script>
+	
+
+<!-- napkins, paper plate -->
+<!-- make a class for each bread type, depending on what's in the dropdown, when the form submits, you'll add that class (i.e. pumpernickel) to divs with class=bread> -->
+<!-- prevent default on the submit button-->
+</body></html>

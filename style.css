@@ -1,0 +1,51 @@
+body {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	background: url(images/gingham.jpg);
+}
+h2 {
+	text-align: center;
+}
+.header {
+	height: 60px;
+	margin: 10px auto;
+}
+#results {
+	/* background: url(images/paperplate.png); */
+	width: 800px;
+	height: 620px;
+	padding: auto;
+	border: auto;
+}
+/*div {
+	width: 50%;
+	margin: 0% 25%; 
+}
+*/
+#sandwich {
+	/*	width: 80%;*/	
+	padding: 2% 0%;
+}
+.bread {
+	height: 20px;
+	width: 450px;
+	background: #87421F;
+	margin: 1% 0%;
+}
+.pumpernickel {
+	background: black;
+}
+.wheat {
+	background: #87421F;	
+}
+.white {
+	background: white;
+	border: solid black 1px;
+}
+.sandwich {
+	background: #8ed7f5;
+	border-radius: 10px;
+	width: 80%;
+	margin: 2% 5%; 
+	padding: 2% 5%;
+	height: auto;
+}
