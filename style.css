@@ -11,8 +11,8 @@ h2 {
 }
 #results {
 	/* background: url(images/paperplate.png); */
-	width: 800px;
-	height: 620px;
+	width: 100%;
+/*	height: 620px; */
 	padding: auto;
 	border: auto;
 }
@@ -48,4 +48,16 @@ h2 {
 	margin: 2% 5%; 
 	padding: 2% 5%;
 	height: auto;
+}
+@media (max-width : 481px) {
+	#sandwich {
+		width: 100%;
+	}
+#sandwich img {
+	width: 100%;
+	height: auto;
+}
+.bread {
+	width: 100%;
+}	
 }
